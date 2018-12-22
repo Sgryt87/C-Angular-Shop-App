@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DutchTreat.-392541211.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="config.json" t="Include" />
+      <e p="Controllers" t="Include">
+        <e p="AppController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="art.json" t="Include" />
+        <e p="DutchContext.cs" t="Include" />
+        <e p="DutchSeeder.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Order.cs" t="Include" />
+          <e p="OrderItem.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20181222001403_InitialDb.cs" t="Include" />
+          <e p="20181222001403_InitialDb.Designer.cs" t="Include" />
+          <e p="DutchContextModelSnapshot.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DutchTreat.csproj" t="IncludeRecursive" />
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="bootstrap" t="IncludeRecursive" />
+        <e p="font-awesome" t="IncludeRecursive" />
+        <e p="jquery" t="IncludeRecursive" />
+        <e p="jquery-validation" t="IncludeRecursive" />
+        <e p="jquery-validation-unobtrusive" t="IncludeRecursive" />
+      </e>
+      <e p="Notes" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="DutchTreat.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package-lock.json" t="Include" />
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="IMailService.cs" t="Include" />
+        <e p="NullMailService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="ContactViewModel.cs" t="Include" />
+      </e>
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="App" t="Include">
+          <e p="About.cshtml" t="Include" />
+          <e p="Contact.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Shop.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="wwwroot" t="Include">
+        <e p="css" t="Include">
+          <e p="site.css" t="Include" />
+        </e>
+        <e p="img" t="Include">
+          <e p="SK-A-1595.jpg" t="Include" />
+          <e p="SK-A-1935.jpg" t="Include" />
+          <e p="SK-A-2344.jpg" t="Include" />
+          <e p="SK-A-2351.jpg" t="Include" />
+          <e p="SK-A-2391.jpg" t="Include" />
+          <e p="SK-A-2860.jpg" t="Include" />
+          <e p="SK-A-3066.jpg" t="Include" />
+          <e p="SK-A-3137.jpg" t="Include" />
+          <e p="SK-A-3138.jpg" t="Include" />
+          <e p="SK-A-3262.jpg" t="Include" />
+          <e p="SK-A-3276.jpg" t="Include" />
+          <e p="SK-A-3298.jpg" t="Include" />
+          <e p="SK-A-3307.jpg" t="Include" />
+          <e p="SK-A-3340.jpg" t="Include" />
+          <e p="SK-A-3341.jpg" t="Include" />
+          <e p="SK-A-3477.jpg" t="Include" />
+          <e p="SK-A-358.jpg" t="Include" />
+          <e p="SK-A-3934.jpg" t="Include" />
+          <e p="SK-A-3981.jpg" t="Include" />
+          <e p="SK-A-3982.jpg" t="Include" />
+          <e p="SK-A-4019.jpg" t="Include" />
+          <e p="SK-A-4050.jpg" t="Include" />
+          <e p="SK-A-4057.jpg" t="Include" />
+          <e p="SK-A-4096.jpg" t="Include" />
+          <e p="SK-A-4119.jpg" t="Include" />
+          <e p="SK-A-4674.jpg" t="Include" />
+          <e p="SK-A-4691.jpg" t="Include" />
+          <e p="SK-A-4717.jpg" t="Include" />
+          <e p="SK-A-4833.jpg" t="Include" />
+          <e p="SK-A-4885.jpg" t="Include" />
+          <e p="SK-A-5033.jpg" t="Include" />
+          <e p="SK-A-91.jpg" t="Include" />
+          <e p="SK-C-1747.jpg" t="Include" />
+          <e p="SK-C-1768.jpg" t="Include" />
+          <e p="SK-C-216.jpg" t="Include" />
+          <e p="SK-C-251.jpg" t="Include" />
+          <e p="SK-C-5.jpg" t="Include" />
+          <e p="SK-C-597.jpg" t="Include" />
+          <e p="SK-C-6.jpg" t="Include" />
+          <e p="VanGogh.jpg" t="Include" />
+        </e>
+        <e p="index.html" t="Include" />
+        <e p="js" t="Include">
+          <e p="index.js" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

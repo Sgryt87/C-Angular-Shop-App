@@ -1,0 +1,17 @@
+1. Run MVC files (razor) or load from static files (SPA)
+2. #if #elseif DEBUG
+3ok - add _ViewStart to embed pages into _layout page 
+4. debugger - this->request->form
+5ok. viewImpoerts to use tag helper, viewModels, etc.. 
+6. services.AddTransient<IMailService, NullMailService>(); --? send mail
+7. interface AppController -- dep injection interface?
+8. :base(some dep inj) --- as in DutchContext
+9. nested                     order.Items = new List<OrderItem>()
+                              {
+                                  new OrderItem()
+                                  {
+                                      Product = products.First(),
+                                      Quantity = 5,
+                                      UnitPrice = products.First().Price
+                                  }
+                              };
