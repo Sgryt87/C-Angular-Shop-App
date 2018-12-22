@@ -24,8 +24,13 @@ namespace DutchTreat
 
         private static void RunSeeding(IWebHost host)
         {
-            var seeder = host.Services.GetService<DutchSeeder>();
-            seeder.Seed();
+            //creates a scope for the lifetime of request
+            var scopeFactory = host.Services.GetService<IServiceScopeFactory>();
+            using (var scope = scopeFactory.CreateScope())
+            {
+                var seeder = scope.ServiceProvider.GetService<DutchSeeder>();
+                seeder.Seed();
+            }
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

@@ -15,12 +15,14 @@
       <e p="Data" t="Include">
         <e p="art.json" t="Include" />
         <e p="DutchContext.cs" t="Include" />
+        <e p="DutchRepository.cs" t="Include" />
         <e p="DutchSeeder.cs" t="Include" />
         <e p="Entities" t="Include">
           <e p="Order.cs" t="Include" />
           <e p="OrderItem.cs" t="Include" />
           <e p="Product.cs" t="Include" />
         </e>
+        <e p="IDutchRepository.cs" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20181222001403_InitialDb.cs" t="Include" />
           <e p="20181222001403_InitialDb.Designer.cs" t="Include" />
