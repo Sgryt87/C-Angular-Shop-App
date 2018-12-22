@@ -30,8 +30,10 @@ namespace DutchTreat
             {
                 cfg.UseMySql(_config.GetConnectionString("DutchConnectionString"));
             });
-            services.AddTransient<DutchSeeder>();
+
             services.AddTransient<IMailService, NullMailService>();
+            services.AddTransient<DutchSeeder>();
+            services.AddScoped<IDutchRepository, DutchRepository>();
             services.AddMvc();
         }
 

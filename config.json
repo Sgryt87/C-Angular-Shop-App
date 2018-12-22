@@ -1,5 +1,11 @@
 {
   "ConnectionStrings": {
-      "DutchConnectionString": "Server=localhost;User Id=root;Password=root;Database=dutch_treat"
+    "DutchConnectionString": "Server=localhost;User Id=root;Password=root;Database=dutch_treat"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
   }
 }
