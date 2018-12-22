@@ -23,7 +23,10 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46cb1fa1-e6bc-4053-a64f-14f4f98557d8" name="Default Changelist" comment="" />
+    <list default="true" id="46cb1fa1-e6bc-4053-a64f-14f4f98557d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="73">
               <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <marker date="1545440139072" expanded="true" signature="6:326" ph="..." />
@@ -94,22 +97,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="667" column="78" selection-start-line="667" selection-start-column="78" selection-end-line="667" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="267">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
-                <marker date="1545436864455" expanded="false" signature="6:378" ph="..." />
-                <marker date="1545436864455" expanded="true" signature="400:1989" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="427:1987" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="529:579" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="589:804" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-                <marker date="1545436864455" expanded="true" signature="871:1159" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="936:1048" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="1347:1981" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="1394:1471" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="1488:1567" ph="{...}" />
-                <marker date="1545436864455" expanded="true" signature="1746:1969" ph="{...}" />
+                <marker date="1545440175568" expanded="false" signature="6:378" ph="..." />
+                <marker date="1545440175568" expanded="true" signature="400:2039" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="427:2037" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="529:579" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="589:804" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+                <marker date="1545440175568" expanded="true" signature="871:1209" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="936:1048" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="1397:2031" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="1444:1521" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="1538:1617" ph="{...}" />
+                <marker date="1545440175568" expanded="true" signature="1796:2019" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/Views/App/Shop.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <marker date="1545438558301" expanded="true" signature="74:125" ph="@..." />
                 <marker date="1545438558301" expanded="true" signature="99:125" ph="{...}" />
@@ -174,6 +186,9 @@
       <find>Development</find>
       <find>connectionString</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00BEB93F-D313-442E-9E2D-44B0B1B3E1E5/a0/392878e1/RazorPageBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -235,7 +250,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Views/App/Contact.cshtml" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8db52cc7-634c-42af-8377-c13d744f02bb/console.sql" />
         <option value="$PROJECT_DIR$/Controllers/AppController.cs" />
@@ -248,6 +262,8 @@
         <option value="$PROJECT_DIR$/Data/DutchSeeder.cs" />
         <option value="$PROJECT_DIR$/Notes" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -263,6 +279,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <autoscrollToSource SolutionExplorer="false" />
@@ -349,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545280195030</updated>
       <workItem from="1545280196692" duration="15669000" />
-      <workItem from="1545430503639" duration="8210000" />
+      <workItem from="1545430503639" duration="8521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23879000" />
+    <option name="totallyTimeSpent" value="24190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,7 +394,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37199435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37199435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27722773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +408,7 @@
       <window_info anchor="bottom" id="TeamCity" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50080776" side_tool="true" weight="0.43564355" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.20792079" />
-      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.49919224" weight="0.43564355" />
+      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.49919224" visible="true" weight="0.43564355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,7 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Views/App/About.cshtml.cs" />
     <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/05/demos/after/DutchTreat/DutchTreat/Views/App/About.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -900,7 +916,7 @@
     <entry file="file://$PROJECT_DIR$/Views/App/Shop.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <marker date="1545438558301" expanded="true" signature="74:125" ph="@..." />
             <marker date="1545438558301" expanded="true" signature="99:125" ph="{...}" />
@@ -945,9 +961,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <marker date="1545440175568" expanded="false" signature="6:378" ph="..." />
+            <marker date="1545440175568" expanded="true" signature="400:2039" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="427:2037" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="529:579" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="589:804" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1545440175568" expanded="true" signature="871:1209" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="936:1048" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="1397:2031" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="1444:1521" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="1538:1617" ph="{...}" />
+            <marker date="1545440175568" expanded="true" signature="1796:2019" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="73">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <marker date="1545440139072" expanded="true" signature="6:326" ph="..." />
@@ -960,23 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <marker date="1545436864455" expanded="false" signature="6:378" ph="..." />
-            <marker date="1545436864455" expanded="true" signature="400:1989" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="427:1987" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="529:579" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="589:804" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-            <marker date="1545436864455" expanded="true" signature="871:1159" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="936:1048" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="1347:1981" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="1394:1471" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="1488:1567" ph="{...}" />
-            <marker date="1545436864455" expanded="true" signature="1746:1969" ph="{...}" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="667" column="78" selection-start-line="667" selection-start-column="78" selection-end-line="667" selection-end-column="78" />
         </state>
       </provider>
     </entry>
