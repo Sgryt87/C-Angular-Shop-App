@@ -11,6 +11,8 @@
       <e p="config.json" t="Include" />
       <e p="Controllers" t="Include">
         <e p="AppController.cs" t="Include" />
+        <e p="OrdersController.cs" t="Include" />
+        <e p="ProductsController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="art.json" t="Include" />

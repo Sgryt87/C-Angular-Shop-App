@@ -15,4 +15,5 @@
                                       UnitPrice = products.First().Price
                                   }
                               };
-10.                               
+10ok dotnet add package Pomelo.EntityFrameworkCore.MySql      
+11. JsonResult Get ()                          

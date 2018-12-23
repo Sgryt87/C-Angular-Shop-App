@@ -10,8 +10,7 @@ namespace DutchTreat.Controllers
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
-        public readonly IDutchRepository _repository;
-        public readonly DutchContext _ctx;
+        private readonly IDutchRepository _repository;
 
         public AppController(IMailService mailService, IDutchRepository repository)
         {
@@ -36,7 +35,7 @@ namespace DutchTreat.Controllers
             if (ModelState.IsValid)
             {
                 _mailService.SendMessage(
-                    "sergiigrytsaienko@gmail.com",
+                    "email@gmail.com",
                     model.Subject,
                     $"From: {model.Name} - {model.Email}, Message: {model.Message}"
                 );
