@@ -11,12 +11,14 @@
       <e p="config.json" t="Include" />
       <e p="Controllers" t="Include">
         <e p="AppController.cs" t="Include" />
+        <e p="OrderItemsController.cs" t="Include" />
         <e p="OrdersController.cs" t="Include" />
         <e p="ProductsController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="art.json" t="Include" />
         <e p="DutchContext.cs" t="Include" />
+        <e p="DutchMappingProfile.cs" t="Include" />
         <e p="DutchRepository.cs" t="Include" />
         <e p="DutchSeeder.cs" t="Include" />
         <e p="Entities" t="Include">
@@ -66,6 +68,8 @@
       <e p="Startup.cs" t="Include" />
       <e p="ViewModels" t="Include">
         <e p="ContactViewModel.cs" t="Include" />
+        <e p="OrderItemViewModel.cs" t="Include" />
+        <e p="OrderViewModel.cs" t="Include" />
       </e>
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />

@@ -42,11 +42,19 @@ namespace DutchTreat.Data
                 .ToList();
         }
 
-        public IEnumerable<Order> GetAllOrders()
+        public IEnumerable<Order> GetAllOrders(bool includeItems)
         {
+            if (includeItems)
+            {
+                //detailed list
+                return _ctx.Orders
+                    .Include(o => o.Items)
+                    .ThenInclude(i => i.Product)
+                    .ToList();
+            }
+
+            //simple list
             return _ctx.Orders
-                .Include(o => o.Items)
-                .ThenInclude(i => i.Product)
                 .ToList();
         }
 
@@ -59,7 +67,12 @@ namespace DutchTreat.Data
                 .FirstOrDefault();
         }
 
-        public bool SaveChanges()
+        public void AddEntity(object model)
+        {
+            _ctx.Add(model);
+        }
+
+        public bool SaveAll()
         {
             return _ctx.SaveChanges() > 0;
         }

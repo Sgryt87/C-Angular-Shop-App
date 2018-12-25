@@ -78,7 +78,7 @@ using DutchTreat.Data.Entities;
             WriteLiteral("        <div class=\"col-md-3\">\n            <div class=\"border bg-light rounded p-1\">\n                ");
             EndContext();
             BeginContext(229, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "79532051f7304e26abfdcf12eeb0aeae", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f02e3bab38eb4c2ba81dcac9d784f46f", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
