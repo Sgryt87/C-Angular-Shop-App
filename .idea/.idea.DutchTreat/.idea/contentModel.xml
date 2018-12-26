@@ -10,6 +10,7 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="config.json" t="Include" />
       <e p="Controllers" t="Include">
+        <e p="AccountController.cs" t="Include" />
         <e p="AppController.cs" t="Include" />
         <e p="OrderItemsController.cs" t="Include" />
         <e p="OrdersController.cs" t="Include" />
@@ -25,11 +26,14 @@
           <e p="Order.cs" t="Include" />
           <e p="OrderItem.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="StoreUser.cs" t="Include" />
         </e>
         <e p="IDutchRepository.cs" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20181222001403_InitialDb.cs" t="Include" />
           <e p="20181222001403_InitialDb.Designer.cs" t="Include" />
+          <e p="20181225025705_Identity.cs" t="Include" />
+          <e p="20181225025705_Identity.Designer.cs" t="Include" />
           <e p="DutchContextModelSnapshot.cs" t="Include" />
         </e>
       </e>
@@ -68,12 +72,16 @@
       <e p="Startup.cs" t="Include" />
       <e p="ViewModels" t="Include">
         <e p="ContactViewModel.cs" t="Include" />
+        <e p="LoginViewModel.cs" t="Include" />
         <e p="OrderItemViewModel.cs" t="Include" />
         <e p="OrderViewModel.cs" t="Include" />
       </e>
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Account" t="Include">
+          <e p="Login.cshtml" t="Include" />
+        </e>
         <e p="App" t="Include">
           <e p="About.cshtml" t="Include" />
           <e p="Contact.cshtml" t="Include" />

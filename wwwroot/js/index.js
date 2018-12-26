@@ -2,10 +2,6 @@
   var x = 0;
   var s = "";
 
-  console.log("Hello Pluralsight");
-
-
-
   var theForm = $("#theForm");
   theForm.hide();
 

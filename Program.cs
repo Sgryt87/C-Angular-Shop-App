@@ -17,19 +17,19 @@ namespace DutchTreat
         public static void Main(string[] args)
         {
             var host = BuildWebHost(args);
-            RunSeeding(host);
+            SeedDb(host);
             host.Run();
 //            BuildWebHost(args).Run();
         }
 
-        private static void RunSeeding(IWebHost host)
+        private static void SeedDb(IWebHost host)
         {
             //creates a scope for the lifetime of request
             var scopeFactory = host.Services.GetService<IServiceScopeFactory>();
             using (var scope = scopeFactory.CreateScope())
             {
                 var seeder = scope.ServiceProvider.GetService<DutchSeeder>();
-                seeder.Seed();
+                seeder.SeedAsync().Wait();
             }
         }
 
@@ -43,7 +43,8 @@ namespace DutchTreat
         {
             //Removing default config options
             builder.Sources.Clear();
-            builder.AddJsonFile("config.json", false, true);
+            builder.AddJsonFile("config.json", false, true)
+                .AddEnvironmentVariables();
         }
     }
 }
