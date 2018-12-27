@@ -23,6 +23,17 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./app/app.component.html":
+/*!********************************!*\
+  !*** ./app/app.component.html ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n    <div class=\"col-md-9\">\n        <h3>{{title}}</h3>\n        <product-list></product-list>\n    </div>\n    <div class=\"col-md-3\">\n        <div class=\"card bg-light p-2\">\n            <the-cart></the-cart>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
 /***/ "./app/app.component.ts":
 /*!******************************!*\
   !*** ./app/app.component.ts ***!
@@ -39,12 +50,12 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'Dutch Treat';
+        this.title = 'Product List';
     }
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'the-shop',
-            template: "\n    <!--The content below is only a placeholder and can be replaced.-->\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome to {{title}}!\n      </h1>\n    </div>\n     "
+            template: __webpack_require__(/*! ./app.component.html */ "./app/app.component.html")
         })
     ], AppComponent);
     return AppComponent;
@@ -67,7 +78,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./app/app.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./app/app.component.ts");
+/* harmony import */ var _shop_productList_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shop/productList.component */ "./app/shop/productList.component.ts");
+/* harmony import */ var _shop_cart_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./shop/cart.component */ "./app/shop/cart.component.ts");
+/* harmony import */ var _shared_dataService__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./shared/dataService */ "./app/shared/dataService.ts");
+
+
+
+
 
 
 
@@ -78,16 +97,237 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _shop_productList_component__WEBPACK_IMPORTED_MODULE_5__["ProductList"],
+                _shop_cart_component__WEBPACK_IMPORTED_MODULE_6__["Cart"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]
             ],
-            providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            providers: [_shared_dataService__WEBPACK_IMPORTED_MODULE_7__["DataService"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/shared/dataService.ts":
+/*!***********************************!*\
+  !*** ./app/shared/dataService.ts ***!
+  \***********************************/
+/*! exports provided: DataService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataService", function() { return DataService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _order__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./order */ "./app/shared/order.ts");
+
+
+
+
+
+var DataService = /** @class */ (function () {
+    function DataService(http) {
+        this.http = http;
+        this.order = new _order__WEBPACK_IMPORTED_MODULE_4__["Order"]();
+        this.products = [];
+    }
+    DataService.prototype.loadProducts = function () {
+        var _this = this;
+        return this.http.get("/api/products")
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
+            _this.products = data;
+            return true;
+        }));
+    };
+    DataService.prototype.AddToOrder = function (product) {
+        var item = this.order.items.find(function (i) { return i.productId == product.id; });
+        if (item) {
+            item.quantity++;
+        }
+        else {
+            item = new _order__WEBPACK_IMPORTED_MODULE_4__["OrderItem"]();
+            item.productId = product.id;
+            item.productArtist = product.artist;
+            item.productCategory = product.category;
+            item.productArtId = product.artId;
+            item.productTitle = product.title;
+            item.productSize = product.size;
+            item.unitPrice = product.price;
+            item.quantity = 1;
+            this.order.items.push(item);
+        }
+    };
+    DataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], DataService);
+    return DataService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/shared/order.ts":
+/*!*****************************!*\
+  !*** ./app/shared/order.ts ***!
+  \*****************************/
+/*! exports provided: Order, OrderItem */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Order", function() { return Order; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OrderItem", function() { return OrderItem; });
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "../node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+
+var Order = /** @class */ (function () {
+    function Order() {
+        this.orderDate = new Date();
+        this.items = new Array();
+    }
+    Object.defineProperty(Order.prototype, "subtotal", {
+        get: function () {
+            return lodash__WEBPACK_IMPORTED_MODULE_0__["sum"](lodash__WEBPACK_IMPORTED_MODULE_0__["map"](this.items, function (i) { return i.unitPrice * i.quantity; }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return Order;
+}());
+
+var OrderItem = /** @class */ (function () {
+    function OrderItem() {
+    }
+    return OrderItem;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/shop/cart.component.html":
+/*!**************************************!*\
+  !*** ./app/shop/cart.component.html ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h3>Shopping cart</h3>\n<div>#/Items: {{data.order.items.length}}</div>\n<div>Subtotal: {{data.order.subtotal | currency:'USD':true}}</div>\n<table class=\"table table-condensed table-hover\">\n    <thead>\n    <tr>\n        <td>Product</td>\n        <td>#</td>\n        <td>$</td>\n        <td>Total</td>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let o of data.order.items\">\n        <td>{{o.productCategory}} - {{o.productTitle}}</td>\n        <td>{{o.quantity}}</td>\n        <td>{{o.unitPrice | currency:'USD':true}}</td>\n        <td>{{(o.unitPrice * o.quantity) | currency:'USD':true}}</td>\n    </tr>\n    </tbody>\n</table>"
+
+/***/ }),
+
+/***/ "./app/shop/cart.component.ts":
+/*!************************************!*\
+  !*** ./app/shop/cart.component.ts ***!
+  \************************************/
+/*! exports provided: Cart */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Cart", function() { return Cart; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_dataService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/dataService */ "./app/shared/dataService.ts");
+
+
+
+var Cart = /** @class */ (function () {
+    function Cart(data) {
+        this.data = data;
+    }
+    Cart = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'the-cart',
+            template: __webpack_require__(/*! ./cart.component.html */ "./app/shop/cart.component.html")
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_dataService__WEBPACK_IMPORTED_MODULE_2__["DataService"]])
+    ], Cart);
+    return Cart;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/shop/productList.component.css":
+/*!********************************************!*\
+  !*** ./app/shop/productList.component.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".product-info img {\n    max-width: 100px;\n    float: left;\n    margin: 0 2px;\n    border: solid 1px black;\n}\n\n.product-info .product-name {\n    font-size: large;\n    font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNsaWVudEFwcC9hcHAvc2hvcC9wcm9kdWN0TGlzdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0lBQ2pCLFlBQVk7SUFDWixjQUFjO0lBQ2Qsd0JBQXdCO0NBQzNCOztBQUVEO0lBQ0ksaUJBQWlCO0lBQ2pCLGtCQUFrQjtDQUNyQiIsImZpbGUiOiJDbGllbnRBcHAvYXBwL3Nob3AvcHJvZHVjdExpc3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9kdWN0LWluZm8gaW1nIHtcbiAgICBtYXgtd2lkdGg6IDEwMHB4O1xuICAgIGZsb2F0OiBsZWZ0O1xuICAgIG1hcmdpbjogMCAycHg7XG4gICAgYm9yZGVyOiBzb2xpZCAxcHggYmxhY2s7XG59XG5cbi5wcm9kdWN0LWluZm8gLnByb2R1Y3QtbmFtZSB7XG4gICAgZm9udC1zaXplOiBsYXJnZTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./app/shop/productList.component.html":
+/*!*********************************************!*\
+  !*** ./app/shop/productList.component.html ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n\n    <div class=\"product-info col-md-4 well well-sm\" *ngFor=\"let p of products\">\n        <div class=\"card bg-light p-1 m-1\">\n            <img src=\"/img/{{p.artId}}.jpg\" class=\"img-responsive\" [alt]=\"p.title\"/>\n            <div class=\"product-name\">{{p.category}} - {{p.size}}</div>\n            <ul class=\"product-props\">\n                <li><strong>Price</strong>: {{p.price}}</li>\n                <li><strong>Artist</strong>: {{p.artist}}</li>\n                <li><strong>Title</strong>: {{p.title}}</li>\n                <li><strong>Description</strong>: {{p.artDescription}}</li>\n            </ul>\n            <button id=\"buyButton\" class=\"btn btn-success btn-sm pull-right\" (click)=\"addProduct(p)\">Buy</button>\n        </div>\n    </div>\n\n</div>"
+
+/***/ }),
+
+/***/ "./app/shop/productList.component.ts":
+/*!*******************************************!*\
+  !*** ./app/shop/productList.component.ts ***!
+  \*******************************************/
+/*! exports provided: ProductList */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductList", function() { return ProductList; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_dataService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/dataService */ "./app/shared/dataService.ts");
+
+
+
+var ProductList = /** @class */ (function () {
+    function ProductList(data) {
+        this.data = data;
+        this.products = [];
+        this.products = data.products;
+    }
+    ProductList.prototype.ngOnInit = function () {
+        var _this = this;
+        this.data.loadProducts()
+            .subscribe(function (success) {
+            if (success) {
+                _this.products = _this.data.products;
+            }
+        });
+    };
+    ProductList.prototype.addProduct = function (product) {
+        this.data.AddToOrder(product);
+    };
+    ProductList = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'product-list',
+            template: __webpack_require__(/*! ./productList.component.html */ "./app/shop/productList.component.html"),
+            styles: [__webpack_require__(/*! ./productList.component.css */ "./app/shop/productList.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_dataService__WEBPACK_IMPORTED_MODULE_2__["DataService"]])
+    ], ProductList);
+    return ProductList;
 }());
 
 
