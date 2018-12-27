@@ -16,4 +16,16 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="dutch-app\angular.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\e2e\tsconfig.e2e.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\package-lock.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\package.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\src\tsconfig.app.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\src\tsconfig.spec.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\src\tslint.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\tsconfig.json" />
+    <_ContentIncludedByDefault Remove="dutch-app\tslint.json" />
+  </ItemGroup>
+
 </Project>

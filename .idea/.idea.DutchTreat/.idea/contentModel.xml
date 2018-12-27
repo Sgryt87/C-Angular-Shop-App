@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DutchTreat.-392541211.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DutchTreat.526798398.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
+      <e p="angular.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p="App" t="Include">
+          <e p="app.component.ts" t="Include" />
+          <e p="app.module.ts" t="Include" />
+        </e>
+        <e p="assets" t="Include">
+          <e p=".gitkeep" t="Include" />
+        </e>
+        <e p="browserslist" t="Include" />
+        <e p="environments" t="Include">
+          <e p="environment.prod.ts" t="Include" />
+          <e p="environment.ts" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="karma.conf.js" t="Include" />
+        <e p="main.ts" t="Include" />
+        <e p="polyfills.ts" t="Include" />
+        <e p="styles.css" t="Include" />
+        <e p="test.ts" t="Include" />
+        <e p="tsconfig.app.json" t="Include" />
+        <e p="tsconfig.spec.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
       <e p="config.json" t="Include" />
       <e p="Controllers" t="Include">
         <e p="AccountController.cs" t="Include" />
@@ -39,11 +64,81 @@
       </e>
       <e p="DutchTreat.csproj" t="IncludeRecursive" />
       <e p="node_modules" t="ExcludeRecursive">
+        <e p="@angular/animations" t="IncludeRecursive" />
+        <e p="@angular/cli" t="IncludeRecursive" />
+        <e p="@angular/common" t="IncludeRecursive" />
+        <e p="@angular/compiler" t="IncludeRecursive" />
+        <e p="@angular/compiler-cli" t="IncludeRecursive" />
+        <e p="@angular/core" t="IncludeRecursive" />
+        <e p="@angular/forms" t="IncludeRecursive" />
+        <e p="@angular/platform-browser" t="IncludeRecursive" />
+        <e p="@angular/platform-browser-dynamic" t="IncludeRecursive" />
+        <e p="@angular/router" t="IncludeRecursive" />
+        <e p="@angular-devkit/build-angular" t="IncludeRecursive" />
+        <e p="@types" t="IncludeRecursive">
+          <e p="jasmine" t="IncludeRecursive" />
+          <e p="jasminewd2" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
         <e p="bootstrap" t="IncludeRecursive" />
+        <e p="codelyzer" t="IncludeRecursive" />
+        <e p="core-js" t="IncludeRecursive" />
         <e p="font-awesome" t="IncludeRecursive" />
+        <e p="jasmine-core" t="IncludeRecursive" />
+        <e p="jasmine-spec-reporter" t="IncludeRecursive" />
         <e p="jquery" t="IncludeRecursive" />
         <e p="jquery-validation" t="IncludeRecursive" />
         <e p="jquery-validation-unobtrusive" t="IncludeRecursive" />
+        <e p="karma" t="IncludeRecursive" />
+        <e p="karma-chrome-launcher" t="IncludeRecursive" />
+        <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+        <e p="karma-jasmine" t="IncludeRecursive" />
+        <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
+        <e p="protractor" t="IncludeRecursive" />
+        <e p="rxjs" t="IncludeRecursive" />
+        <e p="ts-node" t="IncludeRecursive" />
+        <e p="tslib" t="IncludeRecursive" />
+        <e p="tslint" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2018.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2018.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2018.intl.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2018.promise.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.array.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.intl.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+        <e p="zone.js" t="IncludeRecursive" />
       </e>
       <e p="Notes" t="Include" />
       <e p="obj" t="ExcludeRecursive">
@@ -70,6 +165,7 @@
         <e p="NullMailService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
+      <e p="tsconfig.json" t="Include" />
       <e p="ViewModels" t="Include">
         <e p="ContactViewModel.cs" t="Include" />
         <e p="LoginViewModel.cs" t="Include" />
@@ -93,6 +189,22 @@
         </e>
       </e>
       <e p="wwwroot" t="Include">
+        <e p="ClientApp" t="Include">
+          <e p="dist" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="polyfills.js" t="Include" />
+            <e p="polyfills.js.map" t="Include" />
+            <e p="runtime.js" t="Include" />
+            <e p="runtime.js.map" t="Include" />
+            <e p="styles.js" t="Include" />
+            <e p="styles.js.map" t="Include" />
+            <e p="vendor.js" t="Include" />
+            <e p="vendor.js.map" t="Include" />
+          </e>
+        </e>
         <e p="css" t="Include">
           <e p="site.css" t="Include" />
         </e>

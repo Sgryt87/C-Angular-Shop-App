@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/sgryt/Sites/C#/DutchTreat/DutchTreat.csproj",
+    "projectUniqueName": "/Users/sgryt/Sites/CSharp/DutchTreat/DutchTreat.csproj",
     "projectName": "DutchTreat",
-    "projectPath": "/Users/sgryt/Sites/C#/DutchTreat/DutchTreat.csproj",
-    "outputPath": "/Users/sgryt/Sites/C#/DutchTreat/obj/",
+    "projectPath": "/Users/sgryt/Sites/CSharp/DutchTreat/DutchTreat.csproj",
+    "outputPath": "/Users/sgryt/Sites/CSharp/DutchTreat/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using DutchTreat.Data;
@@ -14,6 +15,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 
 namespace DutchTreat
@@ -40,7 +42,15 @@ namespace DutchTreat
 
             services.AddAuthentication()
                 .AddCookie()
-                .AddJwtBearer();
+                .AddJwtBearer(cfg =>
+                {
+                    cfg.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidIssuer = _config["Tokens:Issuer"],
+                        ValidAudience = _config["Tokens:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]))
+                    };
+                });
 
             services.AddDbContext<DutchContext>(cfg =>
             {
@@ -69,11 +79,10 @@ namespace DutchTreat
             }
 
 //            app.UseDefaultFiles(); // disabling loading from static files
+//            app.UseHttpsRedirection();
             app.UseStaticFiles();
-
-            app.UseAuthentication();
-
             app.UseNodeModules(env);
+            app.UseAuthentication();
 
             app.UseMvc(cfg =>
             {

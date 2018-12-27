@@ -25,8 +25,8 @@ namespace DutchTreat.Controllers
         [HttpGet]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-//        public IActionResult Get()
-        public ActionResult<IEquatable<Product>> Get()
+//        public ActionResult<IEquatable<Product>> Get()
+        public IActionResult Get()
         {
             try
             {

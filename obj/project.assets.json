@@ -11973,17 +11973,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sgryt/Sites/C#/DutchTreat/DutchTreat.csproj",
+      "projectUniqueName": "/Users/sgryt/Sites/CSharp/DutchTreat/DutchTreat.csproj",
       "projectName": "DutchTreat",
-      "projectPath": "/Users/sgryt/Sites/C#/DutchTreat/DutchTreat.csproj",
+      "projectPath": "/Users/sgryt/Sites/CSharp/DutchTreat/DutchTreat.csproj",
       "packagesPath": "/Users/sgryt/.nuget/packages/",
-      "outputPath": "/Users/sgryt/Sites/C#/DutchTreat/obj/",
+      "outputPath": "/Users/sgryt/Sites/CSharp/DutchTreat/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/sgryt/.nuget/NuGet/NuGet.Config"
+        "/Users/sgryt/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
