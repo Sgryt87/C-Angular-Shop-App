@@ -24,33 +24,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46cb1fa1-e6bc-4053-a64f-14f4f98557d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shared/dataService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shared/order.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shared/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/productList.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/productList.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/productList.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/shop.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/app/shop/shop.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/dataSources/c68f191d-2c68-447a-b363-c60acc8d689f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/dataSources/c68f191d-2c68-447a-b363-c60acc8d689f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DutchTreat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/app/shared/dataService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/shared/dataService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AppController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AppController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/OrdersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/OrdersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/App/Shop.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/App/Shop.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/DutchTreat.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/DutchTreat.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/Razor/Views/App/About.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/Razor/Views/App/About.g.cshtml.cs" afterDir="false" />
@@ -61,7 +51,6 @@
       <change beforePath="$PROJECT_DIR$/obj/DutchTreat.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DutchTreat.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/DutchTreat.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DutchTreat.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/clientapp/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/clientapp/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/clientapp/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/clientapp/dist/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/clientapp/dist/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/clientapp/dist/vendor.js" afterDir="false" />
@@ -100,25 +89,119 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="dutch_treat: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dutch_treat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dutch_treat: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="AspNetUsers: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/cart.component.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/app/shared/dataService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/app/shared/order.ts">
+        <entry file="file://$PROJECT_DIR$/ClientApp/app/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding>
+                <marker date="1545941698842" expanded="true" signature="16:2378" ph="&lt;html.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="372:2370" ph="&lt;body.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="380:1951" ph="&lt;header.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="411:1941" ph="&lt;nav.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="571:720" ph="&lt;button.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="729:1930" ph="&lt;div.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="793:1915" ph="&lt;ul.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="833:965" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="982:1119" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="1136:1269" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="1286:1417" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="1434:1896" ph="@..." />
+                <marker date="1545941698842" expanded="true" signature="1469:1673" ph="{...}" />
+                <marker date="1545941698842" expanded="true" signature="1508:1655" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="1694:1896" ph="{...}" />
+                <marker date="1545941698842" expanded="true" signature="1733:1878" ph="&lt;li.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="1952:2056" ph="&lt;section.../&gt;" />
+                <marker date="1545941698842" expanded="true" signature="2057:2143" ph="&lt;footer.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/AppController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-423">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <marker date="1546019092526" expanded="false" signature="6:185" ph="..." />
+                <marker date="1546019092526" expanded="true" signature="219:1538" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="265:1536" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="463:561" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="599:646" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="715:762" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="854:1272" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="900:1234" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="1337:1424" ph="{...}" />
+                <marker date="1546019092526" expanded="true" signature="1483:1530" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,10 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entity</find>
-      <find>Development</find>
-      <find>connectionString</find>
-      <find>context</find>
       <find>repo</find>
       <find>&quot;tools&quot;</find>
       <find>IsV</find>
@@ -166,6 +245,10 @@
       <find>dataServ</find>
       <find>dataService</find>
       <find>addToOrder</find>
+      <find>Route</find>
+      <find>router</find>
+      <find>acco</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -185,6 +268,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/87/fdedfa83/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/09/demos/after/DutchTreat/DutchTreat/Controllers/OrdersController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/09/demos/after/DutchTreat/DutchTreat/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/09/demos/after/DutchTreat/DutchTreat/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/09/demos/after/DutchTreat/DutchTreat/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -261,15 +345,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B6775149-F218-4603-A63E-F2F651D9E73B/ef/7e1bfa8e/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/05/demos/after/DutchTreat/DutchTreat/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07DE3E67-FFD1-4268-B6BE-81C34E676267/ca/04d8c156/UserManager`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/ViewModels/LoginViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Views/Account/Login.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Views/Shared/_Layout.cshtml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/Data/Entities/OrderItem.cs" />
-        <option value="$PROJECT_DIR$/Data/Entities/Product.cs" />
         <option value="$PROJECT_DIR$/ViewModels/OrderViewModel.cs" />
         <option value="$PROJECT_DIR$/Data/DutchMappingProfile.cs" />
         <option value="$PROJECT_DIR$/ViewModels/OrderItemViewModel.cs" />
@@ -298,24 +380,29 @@
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/ClientApp/index.html" />
         <option value="$PROJECT_DIR$/ClientApp/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/Controllers/AppController.cs" />
         <option value="$PROJECT_DIR$/ClientApp/app/shop/Class1.ts" />
         <option value="$PROJECT_DIR$/Data/DutchRepository.cs" />
         <option value="$PROJECT_DIR$/Controllers/AccountController.cs" />
         <option value="$PROJECT_DIR$/Controllers/OrdersController.cs" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/ClientApp/app/shared/product.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/app/app.component.html" />
         <option value="$PROJECT_DIR$/ClientApp/app/shop/productList.component.css" />
         <option value="$PROJECT_DIR$/Views/App/Shop.cshtml" />
         <option value="$PROJECT_DIR$/ClientApp/app/shop/productList.component.html" />
-        <option value="$PROJECT_DIR$/ClientApp/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/app/shop/productList.component.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/app/shared/dataService.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/ClientApp/app/shared/order.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/app/shop/shop.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/app/shop/shop.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/app/app.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.ts" />
+        <option value="$PROJECT_DIR$/Controllers/AppController.cs" />
         <option value="$PROJECT_DIR$/ClientApp/app/shop/cart.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/app/shared/dataService.ts" />
       </list>
     </option>
   </component>
@@ -326,8 +413,6 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="346" />
-    <option name="y" value="1080" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -339,13 +424,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="app" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="app" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="checkout" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="app" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="login" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -360,13 +470,17 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ViewModels" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -374,30 +488,12 @@
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="clientapp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DutchTreat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="clientapp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="dist" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,12 +550,13 @@
       <workItem from="1545280196692" duration="15669000" />
       <workItem from="1545430503639" duration="41763000" />
       <workItem from="1545705472619" duration="22042000" />
-      <workItem from="1545930137990" duration="16748000" />
+      <workItem from="1545930137990" duration="19517000" />
+      <workItem from="1546315427244" duration="5228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96222000" />
+    <option name="totallyTimeSpent" value="104219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,10 +568,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="1080" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -495,7 +592,7 @@
       <window_info anchor="bottom" id="TeamCity" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5016155" side_tool="true" weight="0.77369165" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.49919224" weight="0.37199435" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="16" sideWeight="0.4983845" visible="true" weight="0.3847242" />
+      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.4983845" weight="0.3847242" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32956153" />
       <window_info anchor="bottom" id="TypeScript" order="18" weight="0.5091938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -594,226 +691,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wwwroot/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/Class1.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/AppController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <marker date="1545934359604" expanded="false" signature="6:185" ph="..." />
-            <marker date="1545934359604" expanded="true" signature="219:1536" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="265:1534" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="463:561" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="599:646" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="715:762" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="854:1272" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="900:1234" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="1337:1424" ph="{...}" />
-            <marker date="1545934359604" expanded="true" signature="1481:1528" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <marker date="1545709207236" expanded="false" signature="6:326" ph="..." />
-            <marker date="1545709207236" expanded="true" signature="348:1558" ph="{...}" />
-            <marker date="1545709207236" expanded="true" signature="375:1556" ph="{...}" />
-            <marker date="1545709207236" expanded="true" signature="428:581" ph="{...}" />
-            <marker date="1545709207236" expanded="true" signature="632:999" ph="{...}" />
-            <marker date="1545709207236" expanded="true" signature="840:989" ph="{...}" />
-            <marker date="1545709207236" expanded="true" signature="1343:1550" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Entities/StoreUser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <marker date="1545707201478" expanded="true" signature="72:221" ph="{...}" />
-            <marker date="1545707201478" expanded="true" signature="116:219" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewModels/LoginViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <marker date="1545834615005" expanded="true" signature="77:298" ph="{...}" />
-            <marker date="1545834615005" expanded="true" signature="111:296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewModels/OrderItemViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1545703777176" expanded="true" signature="77:612" ph="{...}" />
-            <marker date="1545703777176" expanded="true" signature="115:610" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewModels/OrderViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1545701513794" expanded="false" signature="6:150" ph="..." />
-            <marker date="1545701513794" expanded="true" signature="183:479" ph="{...}" />
-            <marker date="1545701513794" expanded="true" signature="217:477" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Migrations/20181225025705_Identity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/c68f191d-2c68-447a-b363-c60acc8d689f.SCHEMA:dutch_treat">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>c68f191d-2c68-447a-b363-c60acc8d689f.SCHEMA:dutch_treat</OriginalElement>
-          <nodes>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetUserLogins</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.Products</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.OrderItem</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetUserRoles</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetUserTokens</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetRoles</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetUsers</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.__EFMigrationsHistory</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetRoleClaims</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.Orders</node>
-            <node x="" y="">c68f191d-2c68-447a-b363-c60acc8d689f.TABLE:dutch_treat.AspNetUserClaims</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.721294363256785" x="787.0" y="306.7916063675832" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetUserTokens">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetUserRoles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetUsers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DutchSeeder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <marker date="1545835999747" expanded="false" signature="6:287" ph="..." />
-            <marker date="1545835999747" expanded="true" signature="314:2539" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="345:2537" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="623:739" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="778:2531" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="948:1551" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="1018:1211" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="1348:1537" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="1590:2521" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="2041:2470" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="2175:2451" ph="{...}" />
-            <marker date="1545835999747" expanded="true" signature="2241:2429" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/Products">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/OrderItem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetUserClaims">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetRoles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetRoleClaims">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/10/demos/after/DutchTreat/DutchTreat/Controllers/AccountController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1359">
@@ -823,47 +700,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/AccountController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding>
-            <marker date="1545940574515" expanded="false" signature="6:396" ph="..." />
-            <marker date="1545940574515" expanded="true" signature="430:4241" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="480:4239" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="937:1101" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1139:1324" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1201:1286" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1413:2225" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1459:2125" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1755:2111" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1839:1960" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="1985:2093" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2294:2416" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2522:4233" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2568:4189" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2695:4175" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2864:4157" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="2997:3288" ph="{...}" />
-            <marker date="1545940574515" expanded="true" signature="3914:4081" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/Orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/Orders" />
     <entry file="file://$PROJECT_DIR$/Data/DutchRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding>
             <marker date="1545939404031" expanded="false" signature="6:197" ph="..." />
-            <marker date="1545939404031" expanded="true" signature="224:2685" ph="{...}" />
             <marker date="1545939404031" expanded="true" signature="278:2683" ph="{...}" />
             <marker date="1545939404031" expanded="true" signature="470:544" ph="{...}" />
             <marker date="1545939404031" expanded="true" signature="598:999" ph="{...}" />
@@ -887,7 +730,6 @@
           <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <marker date="1545927041440" expanded="false" signature="6:577" ph="..." />
-            <marker date="1545927041440" expanded="true" signature="599:3400" ph="{...}" />
             <marker date="1545927041440" expanded="true" signature="626:3398" ph="{...}" />
             <marker date="1545927041440" expanded="true" signature="728:778" ph="{...}" />
             <marker date="1545927041440" expanded="true" signature="788:1003" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
@@ -911,7 +753,6 @@
           <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
           <folding>
             <marker date="1545867717940" expanded="false" signature="6:196" ph="..." />
-            <marker date="1545867717940" expanded="true" signature="230:1188" ph="{...}" />
             <marker date="1545867717940" expanded="true" signature="368:1186" ph="{...}" />
             <marker date="1545867717940" expanded="true" signature="591:679" ph="{...}" />
             <marker date="1545867717940" expanded="true" signature="862:1180" ph="{...}" />
@@ -933,41 +774,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <marker date="1545941698842" expanded="true" signature="16:2378" ph="&lt;html.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="372:2370" ph="&lt;body.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="380:1951" ph="&lt;header.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="411:1941" ph="&lt;nav.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="571:720" ph="&lt;button.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="729:1930" ph="&lt;div.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="793:1915" ph="&lt;ul.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="833:965" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="982:1119" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="1136:1269" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="1286:1417" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="1434:1896" ph="@..." />
-            <marker date="1545941698842" expanded="true" signature="1469:1673" ph="{...}" />
-            <marker date="1545941698842" expanded="true" signature="1508:1655" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="1694:1896" ph="{...}" />
-            <marker date="1545941698842" expanded="true" signature="1733:1878" ph="&lt;li.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="1952:2056" ph="&lt;section.../&gt;" />
-            <marker date="1545941698842" expanded="true" signature="2057:2143" ph="&lt;footer.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/OrdersController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding>
             <marker date="1545940807402" expanded="true" signature="6:405" ph="..." />
-            <marker date="1545940807402" expanded="true" signature="439:3816" ph="{...}" />
             <marker date="1545940807402" expanded="true" signature="600:3814" ph="{...}" />
             <marker date="1545940807402" expanded="true" signature="1013:1171" ph="{...}" />
             <marker date="1545940807402" expanded="true" signature="1249:1820" ph="{...}" />
@@ -995,7 +807,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="14" />
           <folding>
             <marker date="1545431541298" expanded="true" signature="0:37" ph="@..." />
-            <marker date="1545431541298" expanded="true" signature="38:1758" ph="&lt;div.../&gt;" />
             <marker date="1545431541298" expanded="true" signature="60:1751" ph="&lt;div.../&gt;" />
             <marker date="1545431541298" expanded="true" signature="91:494" ph="&lt;div.../&gt;" />
             <marker date="1545431541298" expanded="true" signature="198:407" ph="&lt;ul.../&gt;" />
@@ -1015,20 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1073,26 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/productList.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -1124,20 +901,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/app/shared/dataService.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/shop.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/shop.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1148,10 +950,256 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/ClientApp/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/ClientApp/app/shop/cart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/cart.component.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wwwroot/clientapp/dist/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="250" column="12" selection-start-line="250" selection-start-column="12" selection-end-line="250" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c68f191d-2c68-447a-b363-c60acc8d689f/schema/dutch_treat/table/AspNetUsers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/ClientApp/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <marker date="1545410602000" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModels/LoginViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1545834615005" expanded="true" signature="77:298" ph="{...}" />
+            <marker date="1545834615005" expanded="true" signature="111:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1545940574515" expanded="false" signature="6:396" ph="..." />
+            <marker date="1545940574515" expanded="true" signature="430:4241" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="480:4239" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="937:1101" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1139:1324" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1201:1286" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1413:2225" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1459:2125" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1755:2111" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1839:1960" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="1985:2093" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2294:2416" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2522:4233" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2568:4189" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2695:4175" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2864:4157" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="2997:3288" ph="{...}" />
+            <marker date="1545940574515" expanded="true" signature="3914:4081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AppController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1546019092526" expanded="false" signature="6:185" ph="..." />
+            <marker date="1546019092526" expanded="true" signature="219:1538" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="265:1536" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="463:561" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="599:646" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="715:762" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="854:1272" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="900:1234" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="1337:1424" ph="{...}" />
+            <marker date="1546019092526" expanded="true" signature="1483:1530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/ViewModels/LoginViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/checkout/checkout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aspnetcore-mvc-efcore-bootstrap-angular-web/13/demos/after/DutchTreat/DutchTreat/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <folding>
+            <element signature="e#0#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <marker date="1545941698842" expanded="true" signature="16:2378" ph="&lt;html.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="372:2370" ph="&lt;body.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="380:1951" ph="&lt;header.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="411:1941" ph="&lt;nav.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="571:720" ph="&lt;button.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="729:1930" ph="&lt;div.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="793:1915" ph="&lt;ul.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="833:965" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="982:1119" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="1136:1269" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="1286:1417" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="1434:1896" ph="@..." />
+            <marker date="1545941698842" expanded="true" signature="1469:1673" ph="{...}" />
+            <marker date="1545941698842" expanded="true" signature="1508:1655" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="1694:1896" ph="{...}" />
+            <marker date="1545941698842" expanded="true" signature="1733:1878" ph="&lt;li.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="1952:2056" ph="&lt;section.../&gt;" />
+            <marker date="1545941698842" expanded="true" signature="2057:2143" ph="&lt;footer.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1545836669377" expanded="true" signature="22:55" ph="@..." />
+            <marker date="1545836669377" expanded="true" signature="57:279" ph="@{...}" />
+            <marker date="1545836669377" expanded="true" signature="281:1516" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="303:1509" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="346:1498" ph="&lt;form.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="438:685" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="699:962" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="976:1348" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="1017:1247" ph="&lt;div.../&gt;" />
+            <marker date="1545836669377" expanded="true" signature="1362:1482" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/shop/cart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/app/shared/dataService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>

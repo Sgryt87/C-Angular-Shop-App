@@ -59,7 +59,7 @@ using DutchTreat.Data.Entities;
             WriteLiteral("<!DOCTYPE html>\n\n<html>\n");
             EndContext();
             BeginContext(24, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8744eaa17acd424180b2f7bb07a6e3cb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a337d0aa9c4549b3a385c0b744c2f174", async() => {
                 BeginContext(30, 23, true);
                 WriteLiteral("\n    <title>Ab</title>\n");
                 EndContext();
@@ -79,7 +79,7 @@ using DutchTreat.Data.Entities;
             WriteLiteral("\n");
             EndContext();
             BeginContext(61, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e5a22eef7b540b3a27fdd048da6d657", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf2498604ae1439eacaafbf245c694fa", async() => {
                 BeginContext(67, 19, true);
                 WriteLiteral("\n<div>\n    \n</div>\n");
                 EndContext();
