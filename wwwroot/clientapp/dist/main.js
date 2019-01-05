@@ -195,12 +195,13 @@ var Checkout = /** @class */ (function () {
         this.errorMessage = "";
     }
     Checkout.prototype.onCheckout = function () {
-        // this.data.checkout()
-        //   .subscribe(success => {
-        //     if (success) {
-        //       this.router.navigate(["/"]);
-        //     }
-        //   }, err => this.errorMessage = "Failed to save order");
+        var _this = this;
+        this.data.checkout()
+            .subscribe(function (success) {
+            if (success) {
+                _this.router.navigate(["/"]);
+            }
+        }, function (err) { return _this.errorMessage = "Failed to save order"; });
     };
     Checkout = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -332,6 +333,19 @@ var DataService = /** @class */ (function () {
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
             _this.token = data.token;
             _this.tokenExpiration = data.expiration;
+            return true;
+        }));
+    };
+    DataService.prototype.checkout = function () {
+        var _this = this;
+        if (this.order.orderNumber) {
+            this.order.orderNumber = this.order.orderDate.getFullYear().toString() + this.order.orderDate.getTime().toString();
+        }
+        return this.http.post('api/orders', this.order, {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().set('Authorization', 'Bearer ' + this.token)
+        })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (response) {
+            _this.order = new _order__WEBPACK_IMPORTED_MODULE_4__["Order"]();
             return true;
         }));
     };
