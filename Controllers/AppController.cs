@@ -54,18 +54,10 @@ namespace DutchTreat.Controllers
             return View();
         }
 
-        [Authorize]
+//        [Authorize]
         public IActionResult Shop()
         {
-            ViewBag.Title = "SHOP";
-            var results = _repository.GetAllProducts();
-
-//            2nd option            
-//            var results = from p in _ctx.Products
-//                orderby p.Category
-//                select p;
-
-            return View(results);
+            return View();
         }
     }
 }

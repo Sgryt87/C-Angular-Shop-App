@@ -11,8 +11,32 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="ClientApp" t="Include">
         <e p="App" t="Include">
+          <e p="app.component.html" t="Include" />
           <e p="app.component.ts" t="Include" />
           <e p="app.module.ts" t="Include" />
+          <e p="checkout" t="Include">
+            <e p="checkout.component.css" t="Include" />
+            <e p="checkout.component.html" t="Include" />
+            <e p="checkout.component.ts" t="Include" />
+          </e>
+          <e p="login" t="Include">
+            <e p="login.component.html" t="Include" />
+            <e p="login.component.ts" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="dataService.ts" t="Include" />
+            <e p="order.ts" t="Include" />
+            <e p="product.ts" t="Include" />
+          </e>
+          <e p="shop" t="Include">
+            <e p="cart.component.html" t="Include" />
+            <e p="cart.component.ts" t="Include" />
+            <e p="productList.component.css" t="Include" />
+            <e p="productList.component.html" t="Include" />
+            <e p="productList.component.ts" t="Include" />
+            <e p="shop.component.html" t="Include" />
+            <e p="shop.component.ts" t="Include" />
+          </e>
         </e>
         <e p="assets" t="Include">
           <e p=".gitkeep" t="Include" />
@@ -94,6 +118,7 @@
         <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
         <e p="karma-jasmine" t="IncludeRecursive" />
         <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
+        <e p="lodash" t="IncludeRecursive" />
         <e p="protractor" t="IncludeRecursive" />
         <e p="rxjs" t="IncludeRecursive" />
         <e p="ts-node" t="IncludeRecursive" />
@@ -208,6 +233,7 @@
         <e p="css" t="Include">
           <e p="site.css" t="Include" />
         </e>
+        <e p="favicon.ico" t="Include" />
         <e p="img" t="Include">
           <e p="SK-A-1595.jpg" t="Include" />
           <e p="SK-A-1935.jpg" t="Include" />
